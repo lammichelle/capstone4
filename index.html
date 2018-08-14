@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS DOM Demo</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <p>
+      How many sides?
+      <input id = "numOfSides" type = "number" value = "6" /> 
+      
+    </p>
+    
+    <p>
+    <button onclick="rollDie();"> Roll Dice!</button>
+</p>
+    <p> <span id = "die1" class= "die"> _ </span></p>
+    
+    <p>
+      <button onclick="setBoxColor ('red');">Red</button>
+      <button onclick= "setBoxColor ('blue');">Blue</button>
+      <button onclick="setBoxColor ('orange');">Orange</button> 
+    </p>
+    
+    <div id = "colorbox"></div>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>

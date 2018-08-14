@@ -1,0 +1,15 @@
+.die {
+  font-family: monospace;
+  font-size: 300%;
+  border: 2px solid black;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+
+
+#colorbox {
+  width: 80%;
+  height: 100px;
+  border: 4px solid green;
+}
